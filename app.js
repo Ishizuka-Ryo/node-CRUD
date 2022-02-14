@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const con = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Merutomo1',
+  password: 'test',
   database: 'express_db'
 });
 
